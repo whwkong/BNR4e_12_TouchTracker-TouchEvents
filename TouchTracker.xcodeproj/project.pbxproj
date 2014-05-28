@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2782ADC319360DA8006E0984 /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2782ADC219360DA8006E0984 /* BNRLine.m */; };
+		2782ADC6193610F0006E0984 /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2782ADC5193610F0006E0984 /* BNRDrawView.m */; };
+		2782ADC91936110D006E0984 /* BNRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2782ADC81936110D006E0984 /* BNRDrawViewController.m */; };
 		27B3024519351F93007769D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B3024419351F93007769D7 /* Foundation.framework */; };
 		27B3024719351F93007769D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B3024619351F93007769D7 /* CoreGraphics.framework */; };
 		27B3024919351F93007769D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B3024819351F93007769D7 /* UIKit.framework */; };
@@ -32,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2782ADC119360DA8006E0984 /* BNRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRLine.h; sourceTree = "<group>"; };
+		2782ADC219360DA8006E0984 /* BNRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRLine.m; sourceTree = "<group>"; };
+		2782ADC4193610F0006E0984 /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawView.h; sourceTree = "<group>"; };
+		2782ADC5193610F0006E0984 /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawView.m; sourceTree = "<group>"; };
+		2782ADC71936110D006E0984 /* BNRDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawViewController.h; sourceTree = "<group>"; };
+		2782ADC81936110D006E0984 /* BNRDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawViewController.m; sourceTree = "<group>"; };
 		27B3024119351F93007769D7 /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B3024419351F93007769D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27B3024619351F93007769D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +120,12 @@
 				27B3025419351F93007769D7 /* BNRAppDelegate.m */,
 				27B3025619351F93007769D7 /* Images.xcassets */,
 				27B3024B19351F93007769D7 /* Supporting Files */,
+				2782ADC119360DA8006E0984 /* BNRLine.h */,
+				2782ADC219360DA8006E0984 /* BNRLine.m */,
+				2782ADC4193610F0006E0984 /* BNRDrawView.h */,
+				2782ADC5193610F0006E0984 /* BNRDrawView.m */,
+				2782ADC71936110D006E0984 /* BNRDrawViewController.h */,
+				2782ADC81936110D006E0984 /* BNRDrawViewController.m */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -241,7 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B3025119351F93007769D7 /* main.m in Sources */,
+				2782ADC91936110D006E0984 /* BNRDrawViewController.m in Sources */,
+				2782ADC319360DA8006E0984 /* BNRLine.m in Sources */,
 				27B3025519351F93007769D7 /* BNRAppDelegate.m in Sources */,
+				2782ADC6193610F0006E0984 /* BNRDrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +456,7 @@
 				27B3026F19351F93007769D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27B3027019351F93007769D7 /* Build configuration list for PBXNativeTarget "TouchTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +465,7 @@
 				27B3027219351F93007769D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
