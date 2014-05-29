@@ -12,9 +12,8 @@ black.
 
 This chapter covers : 
 
-- handling touch events 
+- handling touch events, and multiple touches
 - drawing lines (UIBezierPath)
-
 
 
 
