@@ -66,6 +66,8 @@
 {
     NSLog(@"%@", NSStringFromSelector(_cmd));
     
+    UIButton *contro;
+    
     for (UITouch *t in touches) {
         CGPoint location = [t locationInView:self];
         
